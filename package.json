@@ -1,0 +1,22 @@
+{
+  "name": "hiragana-api",
+  "version": "1.0.0",
+  "description": "WEB API Service for Hiragana Proficiency App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-watch --presets es2015 app.js"
+  },
+  "author": "Kimwan Ogot",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.1",
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0"
+  },
+  "devDependencies": {
+    "babel-watch": "^2.0.6"
+  }
+}
